@@ -1,6 +1,6 @@
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
-    button.innerText = 'hola Brenda';
+    button.innerText = 'hola Jade';
 
     let places = staticLoadPlaces();
     renderPlaces(places);
@@ -11,8 +11,8 @@ function staticLoadPlaces() {
         {
             name: 'Pokèmon',
             location: {
-                 lat: 16.487863,
-                 lng: -95.158813,
+                 lat: 16.4877703,
+                 lng: -95.158818,
             },
         },
     ];
