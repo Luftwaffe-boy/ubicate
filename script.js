@@ -11,8 +11,8 @@ function staticLoadPlaces() {
         {
             name: 'Pokèmon',
             location: {
-                 lat: 16.492648,
-                 lng: -95.157424,
+                 lat: 16.492521,
+                 lng: -95.157391,
             },
         },
     ];
@@ -21,7 +21,7 @@ function staticLoadPlaces() {
 var models = [
     {
         url: './assets/magnemite/scene.gltf',
-        scale: '0.15 0.15 0.15',
+        scale: '0.10 0.10 0.10',
         info: 'Magnemite, Lv. 5, HP 10/10',
         rotation: '0 180 0',
     },
